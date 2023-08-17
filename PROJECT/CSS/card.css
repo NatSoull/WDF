@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Sevillana&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.m{
+    margin: 50px;
+}
+
+.m-bottom{
+    margin-bottom: 20px;
+}
+
+.card{
+    width: 300px;
+    /* height: 500px; */
+    border: 2px solid black;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card-bordy{
+    padding: 20px;
+}
+
+.card-title{
+    font-family: 'Sevillana', cursive;
+    margin-bottom: 10px;
+}
+
+.card-text{
+    line-height: 1.5;
+}
+
+.center{
+    text-align: center;
+}
+
+.end{
+    text-align: right;
+}
+
+.card-img{
+    width: 100%;
+    display: block;
+}
+
+.card-img-top{
+    border-radius: 15px 15px 0 0;
+}
+
+.card-img-bottom{
+    border-radius: 0 0 15px 15px;
+
+}
+
+.card-icon{
+    margin- bottom: 20px;
+    transition: 0.5s;
+}
+
+.card:hover .card-icon{
+    transform: scale(1.1);
+}
+
+.card-btn{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    border-radius: 7px;
+
+}
+
+.card-btn-link{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    border-radius: 7px;
+
+}
+
+.btn-half-downer{
+    margin: auto;
+    margin-bottom: -25px;
+    display: block;
+    width: 129px;
+    text-align: center;
+}
+
+
+.btn-half-upper{
+    float: right;
+    margin-top: -25px;
+    position: relative;
+    margin-right: 20px;
+}
+

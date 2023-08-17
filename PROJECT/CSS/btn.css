@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --normal-h : 50px;
+    --normal-fs : 15px;
+}
+
+body{
+    background-color: #a0a0a0;
+}
+
+.btn{
+    display: inline-block;
+    box-sizing: border-box;
+    height: var(--normal-h) ;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: var(--normal-fs) ;
+    line-height: var(--normal-h) ;
+    padding: 0 20px;
+}
+
+.mb{
+    margin-bottom: 20px;
+}
+
+.btn-light{
+    color: #001219;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.btn-dark{
+    background-color: #000000;
+    border: 2px solid #000000;
+}
+
+.btn-primary{
+    background-color: #0077b6;
+    border: 2px solid #0077b6;
+
+}
+
+.btn-secondary{
+    background-color: #8338ec;
+    border: 2px solid #8338ec;
+
+}
+
+.btn-accent{
+    background-color: #e63946;
+    border: 2px solid #e63946;
+
+}
+
+.btn-outline{
+    display: inline-block;
+    box-sizing: border-box;
+    height: var(--normal-h) ;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: var(--normal-fs) ;
+    line-height: var(--normal-h) ;
+    padding: 0 20px;
+}
+
+.btn-outline-light{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.btn-outline-dark{
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+.btn-outline-primary{
+    border: 2px solid #0077b6;
+    color: #0077b6;
+}
+
+.btn-outline-secondary{
+    border: 2px solid #8338ec;
+    color: #8338ec;
+}
+
+.btn-outline-accent{
+    border: 2px solid #e63946;
+    color: #e63946;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.rounded-pill{
+    border-radius: 25px;
+}
+
+.btn-icon{
+    width: 50px;
+    padding: 0;
+    text-align: center;
+}
